@@ -1,0 +1,6 @@
+[alias]
+	st = status
+	co = checkout
+[user]
+	name = Lyons, Sean
+	email = seanlyons@iheartmedia.com
