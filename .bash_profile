@@ -3,7 +3,7 @@
 export PATH=/Users/seanlyons/Library/Python/3.6/bin:$PATH
 
 # Command Prompt
-PS1='(\u)(\t): \w $ '        # set the prompt to display the current directory
+export PS1='(\u)(\t): \w $ '        # set the prompt to display the current directory
 
 ## golang
 export GOPATH=$(go env GOPATH)
