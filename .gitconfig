@@ -1,6 +1,7 @@
 [alias]
 	st = status
 	co = checkout
+	br = branch
 [user]
-	name = Lyons, Sean
-	email = seanlyons@iheartmedia.com
+	name = sean
+	email = lyonssp777@gmail.com
