@@ -1,7 +1,7 @@
 ### Bash ###
 
 # Command Prompt
-export PS1='(\u) \w $ '        # set the prompt to display the current directory
+export PROMPT='%F{green}%n%f %B%~%b $ '        # set the prompt to display the current directory
 
 # Command preferences
 alias h=history                     # show the history of commands issued
@@ -17,10 +17,10 @@ export PATH=$PATH:$HOME/go/bin
 
 ### OSX ###
 
-# alias rm='trash'
+alias rm='trash'
 
 # Copy from file to clipboard on OSX
-# clip_copy() {
-#   pbcopy < $1
-# }
+clip_copy() {
+  pbcopy < $1
+}
 
